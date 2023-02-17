@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: 'Film P3';
+  src: url(../fonts-filmp3/FilmP3Bold.woff2) format(woff2);
+}
+
 *,
 *::after,
 *::before {
@@ -29,6 +35,8 @@
   align-items: center;
 }
 .header-logo {
+  font-family: 'Film P3';
+
   display: inline-block;
   width: 114px;
 
@@ -36,7 +44,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
 
-  font-family: 'Film P3';
+  
   font-size: 36px;
   line-height: 1.08;
   letter-spacing: 0.3em;
