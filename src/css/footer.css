@@ -101,12 +101,12 @@
     display: block;
     padding-left: 5%;
   }
-  .container {
+  .container-footer {
     max-width: 384px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .container {
+  .container-footer {
     max-width: 930px;
   }
   .footer {
@@ -153,7 +153,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .container-footer {
     max-width: 1110px;
   }
   .footer-logo {
