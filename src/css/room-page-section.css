@@ -1,3 +1,4 @@
+body {background-color: #fffdee;}
 
 .dl-container {
   font-family: "Montserrat", sans-serif;
@@ -5,7 +6,7 @@
   line-height: 1.22;
   letter-spacing: 0.014em;
   color: #7a7a7a;
-  background-color: #fffdee;
+  
 
   width: 100%;
   margin: 0 auto;
@@ -31,9 +32,12 @@
 .dl-order-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
 
 .dl-roomorder-btn {
+  display: block;
+  margin-left: auto;
   margin-top: 32px;
   margin-bottom: 20px;
   width: 384px;
@@ -49,7 +53,18 @@
   color: #ffffff;
 }
 
+.dl-roomorder-btn:hover,
+.dl-roomorder-btn:focus {
+  background: #f3c653;
+  color: #000000;
+}
+
 .dl-back-link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 48px;
+  
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -57,16 +72,19 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #c79002;
+  fill: #C79002;
 }
 
-.dl-back-link::after {
-  content: "";
-  display: inline-block;
-  margin-left: 13px;
-  background-image: url(../img/arrow.svg);
-  color: #c79002;
-  width: 23px;
-  height: 13px;
+.dl-back-link:hover,
+.dl-back-link:focus {
+  color: #f3c653;
+  fill: #F3C653;
+}
+
+.last-link {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
 }
 
 .dl-maintext {
