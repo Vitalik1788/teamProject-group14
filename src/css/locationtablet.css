@@ -50,20 +50,16 @@
         display: block;
         margin-bottom: 24px;
         align-items: center;
+        width: 150px;
     }
 }
 
 
 @media screen and (min-width:1024px) {
     .location-restaurant-div {
-
-        width: 146px;
-
-
-
+        min-width: 146px;
     }
 }
-
 
 @media screen and (min-width:1024px) {
 
@@ -133,6 +129,8 @@
     .location-map-div {
         display: flex;
         align-items: center;
+        width: 284px;
+
         padding-top: 9px;
         padding-bottom: 7px;
         padding-left: 10px;
