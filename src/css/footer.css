@@ -41,6 +41,7 @@
   line-height: 1.1;
   letter-spacing: 0.3em;
   color: #f3c653;
+  margin-bottom: 20px;
 }
 .footer-logo-link {
   color: #f3c653;
@@ -166,4 +167,5 @@
     padding-left: 0px;
     gap: 199px;
   }
+  
 }
