@@ -1,0 +1,1 @@
+import"./reset-ec808ebb.js";import"./modal-61b50526.js";(()=>{const o={openRoomBtn:document.querySelector("[data-room-open]"),closeRoomBtn:document.querySelector("[data-room-close]"),room:document.querySelector("[data-room]")};o.openRoomBtn.addEventListener("click",e),o.closeRoomBtn.addEventListener("click",e);function e(){o.room.classList.toggle("is-hidden")}})();

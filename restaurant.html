@@ -12,9 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
   
-  <script type="module" crossorigin src="/teamProject-group14/assets/modulepreload-polyfill-ec808ebb.js"></script>
-  <link rel="stylesheet" href="/teamProject-group14/assets/restaurant-9e75eab1.css">
+  <script type="module" crossorigin src="/teamProject-group14/assets/reset-ec808ebb.js"></script>
+  <script type="module" crossorigin src="/teamProject-group14/assets/modal-61b50526.js"></script>
   <link rel="stylesheet" href="/teamProject-group14/assets/reset-e903c72b.css">
+  <link rel="stylesheet" href="/teamProject-group14/assets/restaurant-49990ad1.css">
 </head>
 
 <body>
@@ -87,12 +88,13 @@
       </a>
 
       <div class="restpage-button-group">
-        <button type="button" class="restpage-hero-button">
+        <button type="button" class="restpage-hero-button" data-modal-open>
           Забронювати столик
         </button>
-        <button type="button" class="restpage-hero-button">
+        <a href="#menu-anhor"><button type="button" class="restpage-hero-button">
           Переглянути меню
-        </button>
+        </button></a>
+        
       </div>
     </div>
   </div>
@@ -100,7 +102,7 @@
 
   <section class="section-menu">
     <div class="container">
-        <h2 class="menu-title">МЕНЮ РЕСТОРАНУ </h2>
+        <h2 id="menu-anhor" class="menu-title">МЕНЮ РЕСТОРАНУ </h2>
         <div class="tablet-position">
             <div class="tablet-left">
                 <table class="menu-table">
@@ -352,8 +354,77 @@
     </div>
   </div>
 </footer>
-  
 
+  <!-- МОДАЛКА ДЛЯ БРОНИРОВАНИЯ СТОЛИКА -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="tt-modal">
+
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="close-modal-icon" width="24" height="24">
+        <use href="../img/icons-sprite.svg#icon-cross-close-modal"></use>
+      </svg>
+    </button>
+
+    <div class="tt-modal-title-wrap">
+      <h1 class="tt-modal-title">
+        ЗАБРОНЮВАТИ СТОЛИК
+      </h1>
+    </div>
+
+    <form class="tt-modal-form">
+
+      <div class="tt-input-wrap">
+        <div class="tt-input-wrap-part">
+          <div class="tt-modal-input-field">
+            <input type="text" class="tt-modal-input" name="name" id="name" required placeholder="Ваше ім’я"
+              pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Username must be two words separated by space.">
+            <label for="name" class="tt-input-label-title">
+              На кого забронювати столик?
+            </label>
+          </div>
+          <div class="tt-modal-input-field">
+            <input type="tel" class="tt-modal-input" name="tel" id="tel" required placeholder="+38 (___) ___-__-__"
+              pattern="[0-9]+" title="please enter number only">
+            <label for="tel" class="tt-input-label-title">
+              Номер телефону
+            </label>
+          </div>
+        </div>
+
+        <div class="tt-input-wrap-part">
+          <div class="tt-modal-input-field">
+            <select id="person" name="person" class="tt-modal-input">
+              <option value="2" class="value" selected>2</option>
+              <option value="3" class="value">3</option>
+              <option value="4" class="value">4</option>
+              <option value="5" class="value">5</option>
+            </select>
+            <label for="person" class="tt-input-label-title">
+              Столик на яку кількість осіб?
+            </label>
+          </div>
+          <div class="tt-modal-input-field">
+            <select id="tt-date" name="tt-date" class="tt-modal-input">
+              <option value="today" class="value" selected>
+                Сьогодні
+              </option>
+            </select>
+            <label for="tt-date" class="tt-input-label-title">
+              На яку дату бронювати?
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="tt-modal-button">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+
+    </form>
+  </div>
+</div>
+  
+  
   
 </body>
 
