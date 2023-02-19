@@ -6,6 +6,11 @@
     padding-bottom: 32px;
 }
 
+.section-map-link {
+    display: flex;
+    align-items: center;
+}
+
 .location-mimino {
     font-family: 'Film P3';
     font-weight: 700;
