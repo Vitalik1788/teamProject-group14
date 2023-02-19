@@ -168,7 +168,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../img/tablet-hero-img/rest-hero-tablet-img2x.jpg);
+        url(../img/tablet-hero-img/rest-hero-tablet-img@2x.jpg);
     }
   }
 
@@ -243,7 +243,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../img/desktop-hero-img/rest-hero-descktop-img\ 2x.jpg);
+        url(../img/desktop-hero-img/rest-hero-descktop-img@2x.jpg);
     }
   }
 
