@@ -58,6 +58,7 @@ select {
   transition: transform 300ms linear;
   padding: 60px 15px;
   
+  
 }
 
 .modal-close {
@@ -103,7 +104,7 @@ select {
   border: 1px solid #C79002;
   border-radius: 2px;
   padding-top: 17px;
-  padding-bottom: 17px;
+  padding-bottom: 14px;
   padding-left: 12px;
   outline: transparent;
   margin-bottom: 8px;
@@ -139,6 +140,7 @@ select {
   line-height: 23px;
   letter-spacing: 0.05em;
   color: #808080;
+  
 }
 
 .tt-modal-button {
