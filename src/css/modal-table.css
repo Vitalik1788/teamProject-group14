@@ -14,7 +14,7 @@ select {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background-image: url(../images/arrow.svg);
+  background-image: url(../img/arrow-modal-down.svg);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: calc(100% - 20px) center;
@@ -197,12 +197,14 @@ select {
 @media screen and (min-width: 414px) {
   .tt-modal {
     width: 414px;
+    max-height: 100vh;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .tt-modal {
     width: 712px;
+    max-height: 100vh;
     padding: 60px 60px;
   }
 
