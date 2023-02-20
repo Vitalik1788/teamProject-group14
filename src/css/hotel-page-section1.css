@@ -1,5 +1,6 @@
 .section-rooms {
-  background-color: #FFFDEE
+  background-color: #FFFDEE;
+  overflow-x: hidden;
 }
 
 .container-rooms {
