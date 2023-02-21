@@ -2,7 +2,9 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section2-img/mobile-section2-bgimage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover
+  object-fit: cover;
+  overflow-x: hidden;
+ 
 }
 
 .food-container {
