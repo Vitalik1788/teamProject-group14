@@ -1,110 +1,280 @@
-  .restoran-section {
-    background: #FFFDEE;
+body {
+  overflow-x: hidden;
+}
+
+.homepage-section1 {
+  width: 100vw;
+  padding-top: 16px;
+  padding-bottom: 20px;
+
+  background-color: #fffdee;
+  overflow-x: hidden;
+}
+.container-section1 {
+  width: 414px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1-top-wrap {
+  margin-bottom: 32px;
+}
+.section1-pre-title {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+
+  margin-bottom: 6px;
+
+  color: #b4b4b4;
+}
+.section1-logo {
+  display: block;
+  margin-bottom: 16px;
+
+  font-family: 'Film P3';
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+
+  color: #494848;
+}
+.section1-description {
+  width: 242px;
+  margin-right: auto;
+  margin-bottom: 28px;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: #7a7a7a;
+}
+
+.section1-foto1 {
+  margin-left: auto;
+}
+
+.wrap-group1-section1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 21px;
+
+  margin-bottom: 32px;
+}
+.section1-description2 {
+  width: 163px;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: #c79002;
+}
+.wrap-group2-section1 {
+  margin-bottom: 20px;
+}
+.section1-image-list {
+  position: absolute;
+  left: 84px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.section1-image-item {
+  width: 245px;
+  height: 245px;
+}
+.section1-arrows {
+  position: relative;
+  left: 285px;
+
+  display: flex;
+  gap: 32px;
+
+  padding-top: 265px;
+}
+.section1-button {
+  width: 32px;
+  height: 32px;
+
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.section1-foto1,
+.section1-foto2,
+.section1-foto3,
+.section1-foto4 {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 413px) {
+  .container-section1 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-section1 {
+    width: 960px;
   }
 
-  .restoran-container {
-    width: 414px;
-    padding: 0 15px;
-    margin: 0 auto;
+  .homepage-section1 {
+    padding-top: 120px;
+    padding-bottom: 32px;
   }
 
+  .section1-top-wrap {
+    position: relative;
+    padding-bottom: 142px;
 
+    margin-bottom: 0;
+  }
 
-  .restoran-title {
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+  .section1-pre-title {
+    width: 307px;
+
+    font-size: 32px;
     line-height: 1.15;
-    color: #B4B4B4;
 
-    margin-bottom: 12px;
-    margin-top: 16px;
+    margin-bottom: 4px;
   }
 
-  .restoran-logo {
-    font-family: 'Film P3';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+  .section1-logo {
+    width: 204px;
+
+    font-size: 64px;
     line-height: 1.08;
 
-    letter-spacing: 0.3em;
-
-    color: #494848;
-
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
 
-  .restoran-subsection {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
+  .section1-description {
+    width: 419px;
 
-    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 1.5;
 
-    width: 258px;
-    height: 76px;
-
-    margin-bottom: 28px;
+    margin-bottom: 0;
   }
 
-  .restoran-pictures {
-    display: flex;
+  .section1-foto1 {
+    width: 400px;
+    height: 524px;
+    position: absolute;
+    bottom: -12px;
+    right: 65px;
+    z-index: 999;
+  }
+
+  .wrap-group1-section1 {
+    position: relative;
+    gap: 48px;
+  }
+
+  .section1-description2 {
+    position: relative;
+    right: -442px;
+    width: 312px;
+    font-size: 16px;
+    line-height: 1.5;
+
+    padding-top: 148px;
+    padding-bottom: 154px;
+  }
+
+  .section1-foto2 {
+    position: absolute;
+    left: 0;
+    top: -48px;
+
+    width: 350px;
+    height: 500px;
+  }
+
+  .wrap-group1-section1 {
+    margin-bottom: 0;
+  }
+
+  .wrap-group2-section1 {
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .section1-image-list {
+    top: -16px;
+    right: 0;
     justify-content: flex-end;
-    margin-bottom: 32px;
+
+    gap: 40px;
   }
 
-  .img1 {
-    object-fit: cover
+  .section1-arrows {
+    left: 0;
+    justify-content: flex-end;
   }
 
-  .restoran-block {
-    display: flex;
-    gap: 20px;
+  .section1-foto1,
+  .section1-foto2,
+  .section1-foto3,
+  .section1-foto4 {
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-section1 {
+    width: 1140px;
   }
 
-  .restoran-item {
-    margin-top: 102px;
-    margin-bottom: 120px;
+  .homepage-section1 {
+    padding-bottom: 50px;
   }
 
-
-
-  .img2 {
-    object-fit: cover
+  .section1-foto1 {
+    width: 400px;
+    height: 571px;
+    left: 585px;
+    margin-left: 0; 
+    bottom: -56px;
+    transform: translateX(-10%);
   }
 
-  .brown {
-    color: #C79002;
-    opacity: 0.63;
-
-    width: 163px;
-    height: 120px;
+  .section1-foto2 {
+    top: -24px;
   }
 
-  .restoran-list {
-    display: flex;
-    gap: 25px;
+  .section1-description2 {
+    right: 379px;
+    padding-bottom: 101px;
   }
 
-  .img3 {
-    object-fit: cover
+  .section1-image-list {
+    gap: 40px;
   }
 
-  .img4 {
-    object-fit: cover
+  .section1-image-item {
+    width: 254px;
+    height: 254px;
   }
 
-  .restoran-btn {
-    display: flex;
-    justify-content: end;
+  .section1-foto3,
+  .section1-foto4 {
+    width: 254px;
+    height: 254px;
   }
-
-  .button {
-    border: none;
-    background-color: #FFFDEE;
-  }
+}
