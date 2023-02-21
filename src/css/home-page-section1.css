@@ -88,11 +88,11 @@ body {
   display: flex;
   gap: 20px;
 }
-
 .section1-image-item {
   width: 245px;
   height: 245px;
 }
+
 .section1-arrows {
   position: relative;
   left: 285px;
