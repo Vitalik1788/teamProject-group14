@@ -1,4 +1,5 @@
 
+
 .homepage-section1 {
   width: 100vw;
   padding-top: 16px;
@@ -12,11 +13,9 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;  
-}
+  margin-right: auto; 
+  
 
-.class-overflow {
-  overflow-x: hidden;
 }
 
 .section1-top-wrap {
@@ -125,6 +124,12 @@
 @media screen and (max-width: 413px) {
   .container-section1 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .class-overflow {
+    overflow-x: hidden;
   }
 }
 
