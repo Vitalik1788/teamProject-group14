@@ -1,22 +1,24 @@
-body {
-  overflow-x: hidden;
-}
 
 .homepage-section1 {
   width: 100vw;
   padding-top: 16px;
   padding-bottom: 20px;
-
   background-color: #fffdee;
-  overflow-x: hidden;
+  
 }
+
 .container-section1 {
   width: 414px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
 }
+
+.class-overflow {
+  overflow-x: hidden;
+}
+
 .section1-top-wrap {
   margin-bottom: 32px;
 }
@@ -82,7 +84,7 @@ body {
   margin-bottom: 20px;
 }
 .section1-image-list {
-  position: absolute;
+  position: relative;
   left: 84px;
 
   display: flex;
@@ -90,17 +92,15 @@ body {
 }
 .section1-image-item {
   width: 245px;
-  height: 245px;
 }
 
 .section1-arrows {
-  position: relative;
-  left: 285px;
+  position: static;
+  justify-content: end;  
 
   display: flex;
   gap: 32px;
 
-  padding-top: 265px;
 }
 .section1-button {
   width: 32px;
@@ -188,7 +188,7 @@ body {
 
   .section1-description2 {
     position: relative;
-    right: -442px;
+    right: 200px;
     width: 312px;
     font-size: 16px;
     line-height: 1.5;
