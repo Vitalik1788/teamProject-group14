@@ -167,7 +167,7 @@
     width: 400px;
     height: 524px;
     position: absolute;
-    bottom: 24px;
+    bottom: -12px;
     left: 5%;
   }
 
@@ -234,7 +234,7 @@
     width: 400px;
     height: 571px;
     left: 22%;
-    bottom: 0;
+    bottom: -48px;
     transform: translateX(-10%);
   }
 
