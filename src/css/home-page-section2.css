@@ -8,11 +8,21 @@
   background-repeat: no-repeat;
 
   background-size: cover;
-  background-position: center center;
-
+  background-position: center;
 
   overflow-x: hidden;
 }
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .homepage-section2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/section2-img/mobile-section2-bgimage@2x.jpg);
+  }
+}
+
 .container-section2 {
   position: relative;
   width: 414px;
@@ -22,6 +32,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .section2-logo {
   width: 127px;
   margin-left: auto;
@@ -36,6 +47,7 @@
 
   color: #ffffff;
 }
+
 .section2-post-title {
   width: 127px;
   margin-left: auto;
@@ -49,6 +61,7 @@
 
   color: #ffffff;
 }
+
 .section2-description {
   width: 259px;
   margin-left: auto;
@@ -76,6 +89,7 @@
   gap: 16px;
   padding-top: 350px;
 }
+
 .homepage-section2-btn {
   display: inline-block;
   min-width: 234px;
@@ -108,6 +122,7 @@
   display: flex;
   gap: 19px;
 }
+
 .section2-img-item {
   width: 270px;
   height: 270px;
@@ -116,6 +131,7 @@
 .section2-img-item.center {
   width: 162px;
 }
+
 /* 
 .section2-foto1 {
 }
@@ -133,6 +149,7 @@
   display: flex;
   gap: 32px;
 }
+
 .slider-section2-btn {
   width: 32px;
   height: 32px;
@@ -141,6 +158,7 @@
   background-color: transparent;
   border: none;
 }
+
 .section2-arrow-icon {
   fill: #ffffff;
 }
@@ -162,6 +180,17 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/section2-img/tablet-section2-bgimage.jpg);
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .homepage-section2 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url(../img/section2-img/tablet-section2-bgimage@2x.jpg);
+    }
+  }
+
 
   .section2-logo {
     position: relative;
@@ -210,6 +239,7 @@
 
     gap: 24px;
   }
+
   img.section2-foto1,
   img.section2-foto2,
   img.section2-foto3 {
@@ -239,6 +269,16 @@
   .homepage-section2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/section2-img/descktop-section2-bgimage.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .homepage-section2 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url(../img/section2-img/descktop-section2-bgimage@2x.jpg);
+    }
   }
 
   .section2-logo {
