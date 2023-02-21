@@ -163,7 +163,7 @@
 
   .section2-logo {
     position: relative;
-    left: 263px;
+    left: 216px;
     width: 202px;
     margin-right: 0;
     margin-left: 0;
@@ -175,7 +175,7 @@
 
   .section2-post-title {
     position: relative;
-    left: 263px;
+    left: 216px;
     width: 202px;
     margin-right: 0;
     margin-left: 0;
@@ -188,7 +188,7 @@
   .section2-description {
     position: relative;
     width: 610px;
-    left: 263px;
+    left: 216px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 40px;
@@ -204,7 +204,7 @@
 
   .section2-img-list {
     top: 0;
-    left: 297px;
+    left: 257px;
 
     gap: 24px;
   }
@@ -222,7 +222,6 @@
   .section2-btn-group {
     position: relative;
     padding-top: 150px;
-    padding-left: 35px;
   }
 
   .section2-arrows-group {
@@ -241,30 +240,26 @@
   }
 
   .section2-logo {
-    left: 260px;
+    left: 253px;
 
     font-size: 64px;
     line-height: 1.08;
   }
 
   .section2-post-title {
-    left: 260px;
+    left: 253px;
 
     font-size: 24px;
     line-height: 1.2;
   }
 
   .section2-description {
-    left: 260px;
+    left: 253px;
   }
 
   .section2-img-list {
     gap: 86px;
-    left: 275px;
-  }
-
-  .section2-btn-group {
-    padding-left: 0;
+    left: 268px;
   }
 
   img.section2-foto3 {
