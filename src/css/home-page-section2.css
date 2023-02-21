@@ -1,3 +1,4 @@
+
 .homepage-section2 {
   width: 100vw;
   padding-top: 24px;
@@ -130,6 +131,10 @@
 
 .section2-img-item.center {
   width: 162px;
+}
+
+.section2-img-item {
+  height: 270px;
 }
 
 /* 
@@ -306,5 +311,6 @@
 
   img.section2-foto3 {
     width: 270px;
+    height: 270px;
   }
 }

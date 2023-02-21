@@ -88,6 +88,7 @@ body {
 
 .menu-td {
     padding-bottom: 8px;
+    max-width: 221px;
 }
 
 .menu-td:nth-child(2) {
