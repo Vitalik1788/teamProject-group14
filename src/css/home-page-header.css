@@ -70,6 +70,12 @@
 
   color: #f3c653;
 }
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: antiquewhite;
+}
+
 .header-nav-contacts {
   display: flex;
   align-items: center;

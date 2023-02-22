@@ -33,7 +33,7 @@
   padding-left: 85px;
   flex-wrap: wrap;
 }
-.footer-logo {
+.footer-logo-link {
   max-width: 100%;
   font-family: 'Film P3';
   font-weight: 700;
@@ -42,13 +42,21 @@
   letter-spacing: 0.3em;
   color: #f3c653;
   margin-bottom: 20px;
+  
 }
-.footer-logo-link {
-  color: #f3c653;
+
+.footer-logo {
+  padding-bottom: 30px;
 }
+
 
 .footer-item {
   padding-bottom: 16px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: antiquewhite;
 }
 
 .footer-link {
