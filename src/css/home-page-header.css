@@ -47,6 +47,7 @@
 
   color: #ffffff;
 }
+
 .header-nav-list {
   display: flex;
   align-items: center;
@@ -111,7 +112,14 @@
 .header-social-icon {
   width: 24px;
   height: 24px;
+  fill:#f3c653;
 }
+
+.header-social-icon:hover,
+.header-social-icon:focus {
+  fill:antiquewhite;
+}
+
 /* Mobile Adaptive */
 @media screen and (max-width: 413px) {
   .site-header-container {
