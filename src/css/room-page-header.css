@@ -78,6 +78,12 @@
 
   color: #f3c653;
 }
+
+.room-nav-link:hover,
+.room-nav-link:focus {
+  color: antiquewhite;
+}
+
 .room-nav-contacts {
   display: flex;
   align-items: center;
