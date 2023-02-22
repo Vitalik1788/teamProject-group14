@@ -152,7 +152,11 @@
     width: 100%;
   }
 }
-
+@media screen and (max-width: 1023px) {
+  .class-overflow {
+    overflow-x: hidden;
+  }
+}
 /*------------tablet------------*/
 
 @media screen and (max-width: 1023px) {
