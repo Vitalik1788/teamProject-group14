@@ -26,15 +26,15 @@ select {
   line-height: 23px;
   letter-spacing: 0.05em;
   color: #808080;
+
 }
 
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  
+    
 }
-
 
 .backdrop {
   position: fixed;
@@ -44,6 +44,7 @@ select {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 300ms linear, visibility 300ms linear;
   z-index: 2000;
+  overflow-y: scroll;
     
 }
 
@@ -56,8 +57,7 @@ select {
   background: #FFFDEE;
   border-radius: 2px;
   transition: transform 300ms linear;
-  padding: 60px 15px;
-  
+  padding: 60px 15px;  
   
 }
 
