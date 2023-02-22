@@ -74,10 +74,18 @@
   padding-top: 32px;
 }
 
-/* .footer-soc-link {
+.footer-soc-link {
   color: #f3c653;
-} */
+  fill: #f3c653;
+}
 
+.footer-soc-link:hover,
+.fooret-soc-link:focus {
+  fill:antiquewhite;
+  color: antiquewhite;
+}
+
+  
 .footer-soc-text {
   font-family: 'Montserrat';
   font-style: normal;
@@ -85,17 +93,9 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #f3c653;
 }
 
-.footer-soc-icon {
-  fill: #f3c653;
-}
 
-.footer-soc-icon:hover,
-.fooret-soc-icon:focus {
-  fill:antiquewhite;
-}
 
 
 @media screen and (min-width: 280px) and (max-width: 1023px) {
