@@ -12,9 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
   
-  <script type="module" crossorigin src="/teamProject-group14/assets/reset-ec808ebb.js"></script>
-  <script type="module" crossorigin src="/teamProject-group14/assets/room-ecc1eebf.js"></script>
-  <script type="module" crossorigin src="/teamProject-group14/assets/price-a1e8381d.js"></script>
+  <script type="module" crossorigin src="/teamProject-group14/assets/hotel-7901bbc3.js"></script>
+  <link rel="modulepreload" crossorigin href="/teamProject-group14/assets/reset-ec808ebb.js">
+  <link rel="modulepreload" crossorigin href="/teamProject-group14/assets/room-ecc1eebf.js">
+  <link rel="modulepreload" crossorigin href="/teamProject-group14/assets/price-a1e8381d.js">
   <link rel="stylesheet" href="/teamProject-group14/assets/reset-3d214f1b.css">
   <link rel="stylesheet" href="/teamProject-group14/assets/hotel-d7744f2b.css">
 </head>
@@ -145,7 +146,7 @@
         <form action="https://vitalik1788.github.io/teamProject-group14/room.html">
         <button class="hotelpage-btn">Детальніше</button>
         </form>
-        <button type="button" class="hotelpage-btn">Переглянути ціни</button>
+        <button type="button" class="hotelpage-btn" data-price-open-one>Переглянути ціни</button>
       </div>
 
       <div class="hotelpage-arrows">
@@ -164,7 +165,62 @@
   </div>
 </section>
 
+<!-- MODAL WINDOW PRICE -->
 
+<div class="backdrop is-hidden" data-price-one>
+  <div class="tt-modal">
+
+    <button type="button" class="modal-close" data-price-close-one>
+      <svg class="close-modal-icon" width="24" height="24">
+        <use href="/teamProject-group14/assets/icons-sprite-998188fe.svg#icon-cross-close-modal"></use>
+      </svg>
+    </button>
+
+    <div class="tt-modal-title-wrap">
+      <h1 class="tt-modal-title">
+        ЦІНИ НА НОМЕР
+      </h1>
+    </div>
+
+    <div class="tp-modal-title-wrap">
+      <p class="tp-modal-title">Двомісний люкс</p>
+    </div>
+
+    <div class="tp-modal-title-price">
+      <p class="tp-modal-price">Категорія номеру</p>
+    </div>
+
+    <form class="tt-modal-form">
+      <div class="tp-input-wrap">
+        <div class="tp-modal-input-field">
+          <select id="night" name="night" class="tt-modal-input">
+            <option value="1" class="value" selected>2</option>
+            <option value="2" class="value">3</option>
+            <option value="3" class="value">4</option>
+            <option value="4" class="value">5</option>
+          </select>
+          <label for="night" class="tt-input-label-title">
+            Кількість ночей
+          </label>
+        </div>
+        <div class="tp-modal-input-field">
+          <select id="price" name="tt-date" class="tt-modal-input">
+            <option value="today" class="value" selected>
+              1000
+            </option>
+          </select>
+          <label for="price" class="tt-input-label-title">
+            грн
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="tt-modal-button">
+        ЗАБРОНЮВАТИ НОМЕР
+      </button>
+    </form>
+  </div>
+</div>
 
   <section class="hotelpage-section1">
     <div class="container-hotelpage">
@@ -419,6 +475,7 @@
   </div>
 </div>
 
+  
   
   
   <!-- <script type="module" src="/main.js"></script> -->
