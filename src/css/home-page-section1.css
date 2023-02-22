@@ -270,6 +270,7 @@
 
   .section1-image-list {
     gap: 40px;
+    padding-right: 80px;
   }
 
   .section1-image-item {
