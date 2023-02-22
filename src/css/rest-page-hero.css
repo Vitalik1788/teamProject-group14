@@ -91,6 +91,14 @@
 
   color: #ffffff;
 }
+
+.restpage-location-link:hover,
+.restpage-location-link:focus {
+  color: #f3c653;
+  border: 1px solid antiquewhite;
+
+}
+
 .restpage-location-icon {
   width: 20px;
   height: 20px;

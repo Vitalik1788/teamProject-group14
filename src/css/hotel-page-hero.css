@@ -79,6 +79,14 @@
 
   color: #ffffff;
 }
+
+.hotelpage-location-link:hover,
+.hotelpage-location-link:focus {
+  color: #f3c653;
+  border: 1px solid antiquewhite;
+
+}
+
 .hotelpage-location-icon {
   width: 20px;
   height: 20px;

@@ -113,7 +113,14 @@
 .room-social-icon {
   width: 24px;
   height: 24px;
+  color: #f3c653;
 }
+
+.room-social-icon:hover,
+.room-social-icon:focus {
+  fill: antiquewhite;
+}
+
 /* Mobile Adaptive */
 @media screen and (max-width: 413px) {
   .room-header-container {
