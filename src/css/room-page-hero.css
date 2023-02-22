@@ -5,7 +5,7 @@
   padding-top: 585px;
   padding-bottom: 40px;
 
-  background-image: url(../img/add-foto-room/double-lux-mobile.jpg);
+  background-image: url(../img/mobile-hero-img/room-hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .roompage-hero-section {
-    background-image: url(../img/add-foto-room/double-lux-mobile@2x.jpg);
+    background-image: url(../img/mobile-hero-img/room-hero-mobile@2x.jpg);
   }
 }
 
@@ -176,7 +176,7 @@
   .roompage-hero-section {
     padding-top: 468px;
     padding-bottom: 44px;
-    background-image: url(../img/add-foto-room/duoble-lux-tablet.jpg);
+    background-image: url(../img/tablet-hero-img/room-hero-tablet-img.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -184,7 +184,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .roompage-hero-section {
-      background-image: url(../img/add-foto-room/duoble-lux-tablet@2x.jpg);
+      background-image: url(../img/tablet-hero-img/room-hero-tablet-img@2x.jpg);
     }
   }
 
@@ -241,7 +241,7 @@
     padding-top: 524px;
     padding-bottom: 48px;
 
-    background-image: url(../img/add-foto-room/doublux-hero-bg.jpg);
+    background-image: url(../img/desktop-hero-img/room-hero-descktop-img.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -249,7 +249,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .roompage-hero-section {
-      background-image: url(../img/add-foto-room/double-lux-hero-bg@2x.jpg);
+      background-image: url(../img/desktop-hero-img/room-hero-descktop-img@2x.jpg);
     }
   }
 
