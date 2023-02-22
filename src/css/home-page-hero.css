@@ -92,6 +92,14 @@
 
   color: #ffffff;
 }
+
+.hero-location-link:hover,
+.hero-location-link:focus {
+  color: #f3c653;
+  border: 1px solid antiquewhite;
+  
+}
+
 .hero-location-icon {
   width: 20px;
   height: 20px;
