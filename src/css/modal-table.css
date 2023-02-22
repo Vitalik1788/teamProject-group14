@@ -1,3 +1,6 @@
+
+
+
 p,
 h1,
 h2,
@@ -28,14 +31,6 @@ select {
   color: #808080;
 
 }
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-    
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -45,8 +40,16 @@ select {
   transition: opacity 300ms linear, visibility 300ms linear;
   z-index: 2000;
   overflow-y: scroll;
-    
+      
 }
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;    
+}
+
+
 
 .tt-modal {
   position: absolute;
