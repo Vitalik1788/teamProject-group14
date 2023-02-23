@@ -1,6 +1,4 @@
 
-
-
 p,
 h1,
 h2,
@@ -48,7 +46,6 @@ select {
   visibility: hidden;
   pointer-events: none;    
 }
-
 
 
 .tt-modal {
