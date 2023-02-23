@@ -106,6 +106,8 @@
 
   color: #f3c653;
   background-color: rgba(0, 0, 0, 0.4);
+  transition: background 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .homepage-section4-btn:hover,

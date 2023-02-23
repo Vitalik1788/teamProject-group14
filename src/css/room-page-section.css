@@ -51,6 +51,8 @@ body {background-color: #fffdee;}
   font-size: 20px;
   line-height: 1.2;
   color: #ffffff;
+  transition: background 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dl-roomorder-btn:hover,
@@ -73,6 +75,8 @@ body {background-color: #fffdee;}
   letter-spacing: 0.02em;
   color: #c79002;
   fill: #C79002;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dl-back-link:hover,

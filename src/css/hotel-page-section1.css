@@ -96,18 +96,20 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-
-  border: none;
-  border-radius: 25px;
+  border: 2px solid rgba(255, 253, 238, 1);
+    border-radius: 25px;
 
   color: #f3c653;
   background-color: #000000;
+  transition: background 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hotelpage-btn:hover,
 .hotelpage-btn:focus,
 .hotelpage-btn:active {
-  background: #ffffff;
+  border: 2px solid rgba(243, 198, 83, 1);
+    background: #ffffff;
 }
 
 .hotelpage-arrows {
