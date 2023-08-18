@@ -2,16 +2,6 @@
   max-width: none;
 }
 
-.container-hotel-section2 {
-  position: relative;
-  width: 414px;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .section-three-room {
   background-color: rgba(240, 236, 214, 1);
   padding-top: 32px;
@@ -138,7 +128,7 @@
   outline: none;
   display: inline-block;
   transition: background 500ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .three-room-btn:hover,
@@ -149,11 +139,6 @@
 
 /*-------------mobile------------*/
 
-@media screen and (max-width: 413px) {
-  .container-hotel-section2 {
-    width: 100%;
-  }
-}
 @media screen and (max-width: 1023px) {
   .class-overflow {
     overflow-x: hidden;
@@ -165,10 +150,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .container-hotel-section2 {
-    width: 960px;
-  }
-
   .section-three-room {
     padding-top: 66px;
     padding-bottom: 40px;
@@ -249,14 +230,9 @@
 /*------------desktop------------*/
 
 @media screen and (min-width: 1280px) {
-  .container-hotel-section2 {
-    width: 1140px;
-  }
-
   .section-three-room {
     padding-top: 72px;
   }
-
 
   .pre-title-three-room {
     left: 72px;
@@ -272,8 +248,6 @@
     padding-right: 0;
     margin-bottom: 24px;
   }
-
- 
 
   .img-three-room {
     position: absolute;

@@ -1,21 +1,8 @@
-
-
 .homepage-section1 {
   width: 100vw;
   padding-top: 16px;
   padding-bottom: 20px;
   background-color: #fffdee;
-  
-}
-
-.container-section1 {
-  width: 414px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; 
-  
-
 }
 
 .section1-top-wrap {
@@ -95,11 +82,10 @@
 
 .section1-arrows {
   position: static;
-  justify-content: end;  
+  justify-content: end;
 
   display: flex;
   gap: 32px;
-
 }
 .section1-button {
   width: 32px;
@@ -121,12 +107,6 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 413px) {
-  .container-section1 {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .class-overflow {
     overflow-x: hidden;
@@ -134,10 +114,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .container-section1 {
-    width: 960px;
-  }
-
   .homepage-section1 {
     padding-top: 120px;
     padding-bottom: 32px;
@@ -242,10 +218,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container-section1 {
-    width: 1140px;
-  }
-
   .homepage-section1 {
     padding-bottom: 50px;
   }
@@ -254,7 +226,7 @@
     width: 400px;
     height: 571px;
     left: 585px;
-    margin-left: 0; 
+    margin-left: 0;
     bottom: -56px;
     transform: translateX(-10%);
   }

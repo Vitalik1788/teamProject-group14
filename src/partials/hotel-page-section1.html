@@ -1,5 +1,5 @@
 <section class="hotelpage-section1">
-  <div class="container-hotelpage">
+  <div class="container">
     <div class="hotelpage-top-wrap">
       <h2 class="hotel-pre-title">Amet minim mollit non</h2>
       <h2 class="hotel-logo">MIMIHO</h2>
@@ -28,7 +28,8 @@
             src="./img/add-foto-room/small-new-foto1.jpg"
             alt="wash basin"
             class="hotel-foto2"
-            width="194" height="194"
+            width="194"
+            height="194"
           />
         </li>
         <li class="hotelpage-img-item">
@@ -37,15 +38,18 @@
             src="./img/add-foto-room/small-new-foto2.jpg"
             alt="cup of coffee on table"
             class="hotel-foto3"
-            width="194" height="194"
+            width="194"
+            height="194"
           />
         </li>
       </ul>
       <div class="hotelpage-btn-group">
-        <form action="https://vitalik1788.github.io/teamProject-group14/room.html">
+        <form action="/room.html">
           <button class="hotelpage-btn">Детальніше</button>
         </form>
-        <button type="button" class="hotelpage-btn" data-price-open-one>Переглянути ціни</button>
+        <button type="button" class="hotelpage-btn" data-price-open-one>
+          Переглянути ціни
+        </button>
       </div>
 
       <div class="hotelpage-arrows">
@@ -68,7 +72,6 @@
 
 <div class="backdrop is-hidden" data-price-one>
   <div class="tt-modal">
-
     <button type="button" class="modal-close" data-price-close-one>
       <svg class="close-modal-icon" width="24" height="24">
         <use href="./img/icons-sprite.svg#icon-cross-close-modal"></use>
@@ -76,9 +79,7 @@
     </button>
 
     <div class="tt-modal-title-wrap">
-      <h1 class="tt-modal-title">
-        ЦІНИ НА НОМЕР
-      </h1>
+      <h1 class="tt-modal-title">ЦІНИ НА НОМЕР</h1>
     </div>
 
     <div class="tp-modal-title-wrap">
@@ -104,19 +105,13 @@
         </div>
         <div class="tp-modal-input-field">
           <select id="price" name="tt-date" class="tt-modal-input">
-            <option value="today" class="value" selected>
-              1500
-            </option>
+            <option value="today" class="value" selected>1500</option>
           </select>
-          <label for="price" class="tt-input-label-title">
-            грн
-          </label>
+          <label for="price" class="tt-input-label-title"> грн </label>
         </div>
       </div>
 
-      <button type="submit" class="tt-modal-button">
-        ЗАБРОНЮВАТИ НОМЕР
-      </button>
+      <button type="submit" class="tt-modal-button">ЗАБРОНЮВАТИ НОМЕР</button>
     </form>
   </div>
 </div>
